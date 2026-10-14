@@ -1,1 +1,142 @@
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Your Trip | Yatra</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <!-- Navigation bar -->
+    <header class="navbar">
+        <div class="container nav-content">
+            <a href="../index.html" class="logo">Yatra.</a>
+            <nav class="nav-links">
+                <a href="../index.html">Home</a>
+                <a href="destinations.html">Destinations</a>
+                <a href="plan-trip.html">Plan Trip</a>
+                <a href="about.html">About</a>
+                <a href="login.html">Login</a>
+                <a href="signup.html" class="btn">Sign Up</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page heading -->
+    <section class="page-banner">
+        <div class="container">
+            <h1>Plan Your Perfect Trip</h1>
+            <p>Your next adventure begins with a simple plan.</p>
+        </div>
+    </section>
+
+    <!-- Trip planning form -->
+    <main class="section">
+        <div class="container">
+            <div class="form-panel">
+                <div class="section-heading">
+                    <h2>Tell Us About Your Journey</h2>
+                    <p>Fill in your travel preferences below.</p>
+                </div>
+
+                <form action="#" method="get" class="form-grid">
+
+                    <div class="field">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name"
+                               placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email"
+                               placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="destination">Choose Destination</label>
+                        <select id="destination" name="destination" required>
+                            <option value="">Select a destination</option>
+                            <option>Jaipur</option>
+                            <option>Kerala</option>
+                            <option>Goa</option>
+                            <option>Agra</option>
+                            <option>Mumbai</option>
+                            <option>Himachal Pradesh</option>
+                        </select>
+                    </div>
+
+                    <div class="field">
+                        <label for="travellers">Number of Travellers</label>
+                        <select id="travellers" name="travellers" required>
+                            <option value="">Select travellers</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5 or more</option>
+                        </select>
+                    </div>
+
+                    <div class="field">
+                        <label for="departure">Departure Date</label>
+                        <input type="date" id="departure" name="departure" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="return">Return Date</label>
+                        <input type="date" id="return" name="return" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="budget">Estimated Budget</label>
+                        <select id="budget" name="budget" required>
+                            <option value="">Select your budget</option>
+                            <option>Below ₹5,000</option>
+                            <option>₹5,000 - ₹10,000</option>
+                            <option>₹10,000 - ₹25,000</option>
+                            <option>Above ₹25,000</option>
+                        </select>
+                    </div>
+
+                    <div class="field">
+                        <label for="travel">Preferred Transport</label>
+                        <select id="travel" name="travel" required>
+                            <option value="">Choose transport</option>
+                            <option>Train</option>
+                            <option>Bus</option>
+                            <option>Flight</option>
+                            <option>Car</option>
+                        </select>
+                    </div>
+
+                    <div class="field full-width">
+                        <label for="message">Special Requests</label>
+                        <textarea id="message" name="message"
+                                  placeholder="Tell us about your travel preferences"></textarea>
+                    </div>
+
+                    <div class="full-width">
+                        <button type="submit" class="btn">Submit Trip Plan</button>
+                        <a href="destinations.html" class="btn btn-outline">
+                            Explore Places
+                        </a>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Yatra. Discover more, travel better.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
